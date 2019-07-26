@@ -1,0 +1,26 @@
+* 星际译王(stardict) 的个人使用词典
+- 主要用于其命令行 [[https://github.com/Dushistov/sdcv][GitHub - Dushistov/sdcv]]
+
+* sdcv 的安装
+- 使用 linux 自带的包管理器安装(以 archlinux 为例)
+#+BEGIN_SRC bash
+  yay -S sdcv
+#+END_SRC
+- 编译安装
+#+BEGIN_SRC bash
+  git clone https://github.com/Dushistov/sdcv.git ~/Git/sdcv
+
+  cd sdcv
+  mkdir /tmp/build-sdcv
+
+  cd /tmp/build-sdcv && {
+      cmake  ~/Git/sdcv
+      make  && make install
+  }
+#+END_SRC
+
+* sdcv 使用
+#+BEGIN_SRC bash
+  sdcv -c --data-dir=/path/to/dic "$1"
+#+END_SRC
+- 更多使用方法参考 =/*sdcv -h*/=
