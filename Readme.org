@@ -23,4 +23,4 @@
 #+BEGIN_SRC bash
   sdcv -c --data-dir=/path/to/dic "$1"
 #+END_SRC
-- 更多使用方法参考 =/*sdcv -h*/=
+- 更多使用方法参考 =sdcv -h=
