@@ -24,3 +24,6 @@
   sdcv -c --data-dir=/path/to/dic "$1"
 #+END_SRC
 - 更多使用方法参考 =sdcv -h=
+
+* 下载更多的词典
+- 如果想下载更多的词典可以访问 http://download.huzheng.org/dict.org/
